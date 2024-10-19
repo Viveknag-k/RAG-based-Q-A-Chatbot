@@ -26,8 +26,6 @@ with st.sidebar:
         st.session_state.messages.clear()
         
     st.divider()
-    st.markdown("""<span ><font size=2>Lets Connect!</font></span>""",unsafe_allow_html=True)
-    "[Linkedin](https://www.linkedin.com/in/varun-sai-kanuri-089b34226/)" "  \t\t\t"  "[GitHub](https://github.com/varunsai-k)"
     
 os.environ['OPENAI_API_KEY']=openai_api_key
 openai.api_key = os.environ['OPENAI_API_KEY']
